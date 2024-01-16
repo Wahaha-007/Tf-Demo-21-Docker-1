@@ -6,7 +6,7 @@
 
 2. Create Docker image on local repo, first change into \dockerfile dir,next start Docker desktop
 
-   $ docker build -t <URL>:1 .
+   $ docker build -t URL:1 .
 
 3. Log local computer into ECR
 
@@ -14,4 +14,4 @@
 
 4. Push the above Docker image to ECR
 
-   $ docker push <URL>:1
+   $ docker push URL:1
